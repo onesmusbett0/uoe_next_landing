@@ -179,7 +179,7 @@ const DashboardGallery = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.4, ease: "circOut" }}
-              className="w-full aspect-[16/10] glass border-slate-200 rounded-[2.5rem] md:rounded-[4rem] shadow-2xl overflow-hidden p-3 md:p-6"
+              className="w-full aspect-[3/4] md:aspect-[16/10] glass border-slate-200 rounded-[2.5rem] md:rounded-[4rem] shadow-2xl overflow-hidden p-3 md:p-6"
             >
               <div className="w-full h-full rounded-[1.5rem] md:rounded-[3rem] overflow-hidden bg-slate-100 border border-slate-200 relative group">
                 <div className="absolute inset-0 bg-slate-900/5 group-hover:bg-transparent transition-colors duration-500" />
@@ -188,10 +188,6 @@ const DashboardGallery = () => {
                   alt={activeTab}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
-                {/* Floating Hint */}
-                <div className="absolute bottom-8 left-8 glass px-6 py-3 rounded-2xl font-black text-xs uppercase tracking-[0.2em]">
-                  Full Module View
-                </div>
               </div>
             </motion.div>
           </AnimatePresence>
@@ -346,7 +342,7 @@ const App = () => {
             </motion.div>
           </div>
 
-          <div className="lg:col-span-5 hidden lg:block">
+          <div className="lg:col-span-5 mt-12 lg:mt-0">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
