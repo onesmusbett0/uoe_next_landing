@@ -185,7 +185,7 @@ const DashboardGallery = () => {
                 <div className="absolute inset-0 bg-slate-900/5 group-hover:bg-transparent transition-colors duration-500" />
                 <img
                   src={modules.find(m => m.id === activeTab)?.img}
-                  alt={activeTab}
+                  alt={`${modules.find(m => m.id === activeTab)?.title} Module Preview`}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
               </div>
@@ -352,6 +352,7 @@ const App = () => {
               <div className="aspect-square bg-transparent rounded-[5rem] overflow-hidden shadow-2xl relative group border-8 border-white/20">
                 <img
                   src="/ai_hero.png"
+                  alt="UoE Next AI Assistant Illustration"
                   className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#006837]/40 to-transparent opacity-60" />
