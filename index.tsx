@@ -73,7 +73,7 @@ const Navbar = ({ onScrollToWaitlist }: { onScrollToWaitlist: () => void }) => {
         <div className="flex items-center gap-3">
           <span className="hidden sm:flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full border" style={{ color: TAN, borderColor: `${TAN}40`, background: `${TAN}10` }}>
             <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: TAN }}></span>
-            v4.7 Live
+            v1.0.1 Live
           </span>
           <button
             onClick={onScrollToWaitlist}
@@ -308,7 +308,7 @@ const ComparisonSection = () => {
               </div>
               <div>
                 <div className="font-black text-white text-lg">UoE Next Portal</div>
-                <div className="text-xs font-bold uppercase tracking-widest" style={{ color: TAN }}>v4.7 — AI-Powered</div>
+                <div className="text-xs font-bold uppercase tracking-widest" style={{ color: TAN }}>v1.0.1 — AI-Powered</div>
               </div>
             </div>
             <div className="space-y-4">
@@ -784,7 +784,7 @@ const App = () => {
                 </div>
                 <div className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest px-3 py-2 rounded-full" style={{ color: TAN, background: `${TAN}15`, border: `1px solid ${TAN}30` }}>
                   <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: TAN }}></span>
-                  v4.7 Live · {new Date().getFullYear()}
+                  v1.0.1 Live · {new Date().getFullYear()}
                 </div>
               </div>
 
@@ -822,7 +822,7 @@ const App = () => {
                   <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mt-1">Secure & Verified</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-black text-slate-900">v4.7</div>
+                  <div className="text-3xl font-black text-slate-900">v1.0.1</div>
                   <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mt-1">Latest Version</div>
                 </div>
               </div>
@@ -943,7 +943,7 @@ const App = () => {
           </div>
           <div className="border-t border-slate-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-[11px] font-bold uppercase tracking-[0.2em] text-slate-400">
-              © {new Date().getFullYear()} University of Eldoret · UoE Next Portal v4.7
+              © {new Date().getFullYear()} University of Eldoret · UoE Next Portal v1.0.1
             </div>
             <div className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400">
               Lead Dev: <span style={{ color: TAN }}>Onesmus Bett</span>
